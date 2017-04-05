@@ -73,7 +73,7 @@ COOKIES_ENABLED = False
 ITEM_PIPELINES = {
     #'redtube.pipelines.MongoDBPipeline': 100,
     'scrapy.downloadermiddleware.useragent.UserAgentMiddleware': None,
-    'random_useragent.RandomUserAgentMiddleware': 400
+    'middlewares.RandomUserAgentMiddleware': 400
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
